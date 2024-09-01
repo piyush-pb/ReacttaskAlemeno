@@ -1,5 +1,5 @@
 ## To Run Locally
-1. git clone https://github.com/Kraniket901/alemenoFrontendTask.git
+1. git clone [https://github.com/piyush-pb/ReacttaskAlemeno]
 2. cd alemenoFrontendTask
 3. npm install
 4. git npm start
