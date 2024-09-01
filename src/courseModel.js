@@ -1,0 +1,175 @@
+const courseModel = [
+  {
+    id: 1,
+    name: 'Introduction to HTML',
+    likes: 12,
+    instructor: 'Aniket Kumar',
+    description: 'Learn The Basics Of HTML And Build Your First Website.',
+    enrollmentStatus: 'Open',
+    thumbnail: 'https://mdbootstrap.com/wp-content/uploads/2019/01/html.jpg',
+    duration: '8 weeks',
+    schedule: 'Tuesdays and Thursdays, 6:00 PM - 8:00 PM',
+    location: 'Online',
+    dueDate:'25th November, 2023',
+    progress:'25',
+    prerequisites: ['Basic Website knowledge', 'Familiarity with VS Code'],
+    syllabus: [
+      {
+        week: 1,
+        topic: 'Intro to HTML',
+        content: 'Explore the fundamentals of HTML for building web pages.',
+      },
+      {
+        week: 2,
+        topic: 'HTML tags',
+        content: 'Dive into the various HTML tags and their usage in web development.',
+      },
+      {
+        week: 3,
+        topic: 'HTML use with other components',
+        content: 'Understand how HTML integrates with other components in web development.',
+      },
+      {
+        week: 4,
+        topic: 'HTML tables',
+        content: 'Discover the creation and use of HTML tables for data presentation.',
+      },
+      {
+        week: 5,
+        topic: 'HTML forms',
+        content: 'Learn the essentials of creating forms using HTML.',
+      },
+      {
+        week: 6,
+        topic: 'Fun with HTML',
+        content: 'Explore creative and fun aspects of HTML development.',
+      },
+      {
+        week: 7,
+        topic: 'Major project I',
+        content: 'Initiate and work on your first major HTML project.',
+      },
+      {
+        week: 8,
+        topic: 'Major project II',
+        content: 'Conclude the course with an advanced HTML project.',
+      },
+    ],
+  },
+  {
+    id: 2,
+    name: 'Introduction to CSS',
+    likes: 4,
+    instructor: 'Pranjal Naman',
+    description: 'Deep Dive Into Advanced CSS Concepts.',
+    enrollmentStatus: 'Closed',
+    thumbnail: 'https://www.freecodecamp.org/news/content/images/2019/10/css.png',
+    duration: '6 weeks',
+    schedule: 'Mondays and Wednesdays, 7:00 PM - 9:00 PM',
+    location: 'Online',
+    dueDate:'25th November, 2023',
+    progress:'50',
+    prerequisites: ['Intermediate HTML knowledge'],
+    syllabus: [
+      {
+        week: 1,
+        topic: 'Intro to CSS',
+        content: 'Grasp the basics of CSS for styling and enhancing web pages.',
+      },
+      {
+        week: 2,
+        topic: 'Deep dive - I',
+        content: 'Take a deep dive into advanced CSS concepts and techniques.',
+      },
+      {
+        week: 3,
+        topic: 'Deep dive - II',
+        content: 'Further explore advanced CSS features and their applications.',
+      },
+      {
+        week: 4,
+        topic: 'CSS advanced',
+        content: 'Understand advanced CSS techniques and best practices.',
+      },
+      {
+        week: 5,
+        topic: 'Flexbox',
+        content: 'Master the use of Flexbox for efficient layout design in CSS.',
+      },
+      {
+        week: 6,
+        topic: 'Major project',
+        content: 'Apply your CSS skills in a comprehensive major project.',
+      },
+    ],
+  },
+  {
+    id: 3,
+    name: 'Complete JavaScript',
+    likes : 10,
+    instructor: 'Piyush Kumar',
+    description: 'Deep dive into JavaScript concepts.',
+    enrollmentStatus: 'In Progress',
+    thumbnail: 'https://i.ytimg.com/vi/PwsigsH4oXw/maxresdefault.jpg',
+    duration: '10 weeks',
+    schedule: 'Mondays and Wednesdays, 7:00 PM - 9:00 PM',
+    location: 'Online',
+    dueDate:'25th November, 2023',
+    progress:'75',
+    prerequisites: ['Intermediate HTML / CSS knowledge'],
+    syllabus: [
+      {
+        week: 1,
+        topic: 'JavaScript intro',
+        content: 'Gain insights into JavaScript, focusing on closures and lexical scope.',
+      },
+      {
+        week: 2,
+        topic: 'Variables and operators',
+        content: 'Master the use of variables and operators in JavaScript programming.',
+      },
+      {
+        week: 3,
+        topic: 'Data types - 1',
+        content: 'Explore the various data types in JavaScript programming.',
+      },
+      {
+        week: 4,
+        topic: 'Basic I/O in javascript',
+        content: 'Understand basic input and output operations in JavaScript.',
+      },
+      {
+        week: 5,
+        topic: 'Flow Of Control',
+        content: 'Learn about the flow of control in JavaScript programs.',
+      },
+      {
+        week: 6,
+        topic: 'Functions and data types - 2',
+        content: 'Dive deeper into functions and advanced data types in JavaScript.',
+      },
+      {
+        week: 7,
+        topic: 'OOPS',
+        content: 'Understand the principles of Object-Oriented Programming in JavaScript.',
+      },
+      {
+        week: 8,
+        topic: 'Advanced javascript',
+        content: 'Explore advanced JavaScript concepts and techniques.',
+      },
+      {
+        week: 9,
+        topic: 'JavaScript industry use',
+        content: 'Discover the practical applications of JavaScript in industry scenarios.',
+      },
+      {
+        week: 10,
+        topic: 'JavaScript use in web development',
+        content: 'Understand the integral role of JavaScript in web development.',
+      },
+    ],
+  },
+];
+
+export default courseModel;
